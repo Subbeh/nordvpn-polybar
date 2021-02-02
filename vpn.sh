@@ -44,7 +44,7 @@ update_ip() {
 }
 
 update_bar() {
-  echo "%{u#${color}} $ip%{u-}"
+  echo "%{u#${color}}%{+u} $ip%{u-}"
 }
 
 main $*
